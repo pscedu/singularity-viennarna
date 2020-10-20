@@ -13,8 +13,37 @@ e load command): "
  puts stderr "\tviennarna/2.4.14"
  puts stderr "\n Then to get help with the program's usage enter the name of the tool you wish to use.\n"
  }
-  module-whatis "ViennaRNA 2.4.14 (ViennaRNA)"
+  module-whatis "ViennaRNA 2.4.14 (ViennaRNA)
+
+  Tools included in this module are
+  
+  * AnalyseDists
+  * AnalyseSeqs
+  * Kinfold
+  * RNA2Dfold
+  * RNAaliduplex
+  * RNAalifold
+  * RNAcofold
+  * RNAdistance
+  * RNAduplex
+  * RNAeval
+  * RNAfold
+  * RNAforester
+  * RNAheat
+  * RNAinverse
+  * RNALalifold
+  * RNALfold
+  * RNApaln
+  * RNApdist
+  * RNAparconv
+  * RNAPKplex
+  * RNAplex
+  * RNAplfold
+  * RNAplot
+  * RNAsnoop
+  * RNAsubopt
+  * RNAup"
+
   set VIENNARNA_HOME /opt/packages/viennarna/2.4.14
   setenv VIENNARNA_HOME ${VIENNARNA_HOME}
   prepend-path PATH ${VIENNARNA_HOME}
-
