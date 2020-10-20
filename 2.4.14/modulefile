@@ -6,18 +6,18 @@
 
  proc ModulesHelp { } {
  global dotversion
- puts stderr "\ViennaRNA  2.5.1 (ViennaRNA)"
- puts stderr "------------------------"
- puts stderr "\n To enable, first load the following required modules (via modul
-e load command): "
- puts stderr "\tviennarna/2.4.14"
- puts stderr "\n Then to get help with the program's usage enter the name of the tool you wish to use.\n"
+ puts stderr "ViennaRNA  2.5.1 (ViennaRNA)"
+ puts stderr "-----------------------------"
+ puts stderr "\nTo enable, first load the following required modules (via module load command): "
+ puts stderr "\n\tmodule load viennarna/2.4.14"
+ puts stderr "\nFor a full list of binaries included in this module, type"
+ puts stderr "\n\tmodule what-is viennarna/2.4.14"
  }
 
 module-whatis "ViennaRNA 2.4.14 (ViennaRNA)
 
   Tools included in this module are
-  
+
   * AnalyseDists
   * AnalyseSeqs
   * Kinfold
