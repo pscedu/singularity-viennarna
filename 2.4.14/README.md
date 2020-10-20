@@ -3,14 +3,6 @@
 ## About
 Source code repository can be found [here](https://www.tbi.univie.ac.at/RNA/).
 
-```
-org.label-schema.build-date: Thursday_16_July_2020_5:23:0_UTC
-org.label-schema.schema-version: 1.0
-org.label-schema.usage.singularity.deffile.bootstrap: docker
-org.label-schema.usage.singularity.deffile.from: quay.io/biocontainers/viennarna:2.4.14--py27heb12742_3
-org.label-schema.usage.singularity.version: 3.3.0-1
-```
-
 The tools included with ViennaRNA are
 
 * AnalyseDists
