@@ -16,6 +16,37 @@ Copy the
 to `/opt/packages/viennarna/2.4.14`.
 
 Copy the file `modulefile.lua` to `/opt/modulefiles/viennarna` as `2.4.14.lua`.
+## About
+Source code repository can be found [here](https://www.tbi.univie.ac.at/RNA/).
+
+The tools included with ViennaRNA are
+
+* AnalyseDists
+* AnalyseSeqs
+* Kinfold
+* RNA2Dfold
+* RNAaliduplex
+* RNAalifold
+* RNAcofold
+* RNAdistance
+* RNAduplex
+* RNAeval
+* RNAfold
+* RNAforester
+* RNAheat
+* RNAinverse
+* RNALalifold
+* RNALfold
+* RNApaln
+* RNApdist
+* RNAparconv
+* RNAPKplex
+* RNAplex
+* RNAplfold
+* RNAplot
+* RNAsnoop
+* RNAsubopt
+* RNAup
 
 ## Building the image using the recipe
 ### To build the image locally
