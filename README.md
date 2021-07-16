@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-viennarna)
 
 # singularity-viennarna
-Singularity recipe for [viennarna](https://github.com/sandialabs/viennarna).
+Singularity recipe for [viennarna](http://rna.tbi.univie.ac.at).
 
 ## Installing the container on Bridges 2
 Copy the
