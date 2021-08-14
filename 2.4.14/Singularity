@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: alpine:edge
+From: quay.io/biocontainers/viennarna:2.4.14--py27heb12742_3
 
 %labels
     MAINTAINER icaoberg
@@ -8,7 +8,3 @@ From: alpine:edge
     REPOSITORY https://github.com/pscedu/singularity-viennarna
     COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 2.4.14
-
-%post
-    apk update
-    apk add asciinema
