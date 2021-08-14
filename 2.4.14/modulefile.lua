@@ -25,12 +25,33 @@ To unload the module type
 
 Documentation
 -------------
-For help, type
-
-> viennarna --help
-
 Tools included in this module are
-* viennarna
+ * AnalyseDists
+ * AnalyseSeqs
+ * Kinfold
+ * RNA2Dfold
+ * RNAaliduplex
+ * RNAalifold
+ * RNAcofold
+ * RNAdistance
+ * RNAduplex
+ * RNAeval
+ * RNAfold
+ * RNAforester
+ * RNAheat
+ * RNAinverse
+ * RNALalifold
+ * RNALfold
+ * RNApaln
+ * RNApdist
+ * RNAparconv
+ * RNAPKplex
+ * RNAplex
+ * RNAplfold
+ * RNAplot
+ * RNAsnoop
+ * RNAsubopt
+ * RNAup
 ]])
 
 local package = "viennarna"

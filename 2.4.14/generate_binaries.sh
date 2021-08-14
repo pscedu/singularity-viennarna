@@ -44,7 +44,7 @@ EOF
 
 for TOOL in "${TOOLS[@]}"
 do
-	echo $TOOL
+	echo " * "$TOOL
         cp template $TOOL
 	sed -i "s/TOOL_NAME/$TOOL/g" $TOOL
 	chmod +x $TOOL

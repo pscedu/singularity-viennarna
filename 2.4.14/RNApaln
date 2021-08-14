@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! /usr/bin/singularity ]; then
+	module load singularity/3.6.3
+fi
+
+VERSION=2.4.14
+PACKAGE=viennarna
+TOOL=RNApaln
+DIRECTORY=/opt/packages/$PACKAGE/$VERSION
+
+singularity exec -B /pylon5 $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
