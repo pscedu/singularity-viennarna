@@ -13,8 +13,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: The ViennaRNA Package is a set of standalone programs and libraries used for prediction and analysis of RNA secondary structures.")
 
 help([[
-Description
------------
 The ViennaRNA Package is a set of standalone programs and libraries used for prediction and analysis of RNA secondary structures.
   
 To load the module type
