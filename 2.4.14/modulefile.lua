@@ -2,9 +2,9 @@
 -- viennarna 2.4.14 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
--- "Category: Biomedical"
+-- "Category: Biological Sciences"
 -- "Description:The ViennaRNA Package is a set of standalone programs and libraries used for prediction and analysis of RNA secondary structures."
--- "Keywords: singularity STEM"
+-- "Keywords: singularity bioinformatics"
 
 whatis("Name: viennarna")
 whatis("Version: 2.4.14")
